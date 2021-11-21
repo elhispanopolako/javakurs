@@ -18,7 +18,16 @@ public class StudentChecker {
          pati.email="patik@niepodam.pl";
          pati.nick="KPA02";
 
+         Student[] students= new Student[3];
+         students[0]=tadek;
+         students[1]=michal;
+         students[2]=pati;
 
+         for(int i=0;i< students.length;i++){
+             students[i].PrzedstawSie();
+             students[i].PodajEmail();
+             students[i].ZalogujSie();
+         }
 
     }
 }

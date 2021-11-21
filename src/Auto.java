@@ -3,6 +3,12 @@ public class Auto {
     public String model;
     public int rok;
     public int przebieg;
+    public Auto(String mark,String mod,int year,int dist){
+        marka=mark;
+        model=mod;
+        rok=year;
+        przebieg=dist;
+    }
 
     public void jedz(){
         System.out.println("Jedź");
