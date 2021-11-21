@@ -6,8 +6,19 @@ public class StudentChecker {
         tadek.email="wta10@o2.pl";
         tadek.nick="WTA10";
 
-        tadek.PrzedstawSie();
-        tadek.PodajEmail();
-        tadek.ZalogujSie();
+        Student michal=new Student();
+         michal.imie="Michał";
+         michal.nazwisko="Nowak";
+         michal.email="michał@niepodam.pl";
+         michal.nick="NMI01";
+
+         Student pati=new Student();
+         pati.imie="Patrycja";
+         pati.nazwisko="Kużdżał";
+         pati.email="patik@niepodam.pl";
+         pati.nick="KPA02";
+
+
+
     }
 }
