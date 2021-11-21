@@ -8,7 +8,10 @@ public class AgeChecker {
 
         if (wiek>=18){
             System.out.println("Jesteś pełnoletni, udanych zakupów!");
-        }else{
+        }else if(wiek<0){
+            System.out.println("Wprowadź wartość dodatnią");
+        }
+        else{
             System.out.println("Jesteś niepełnoletni nie możesz kupić piwa");
         }
     }
