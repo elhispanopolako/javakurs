@@ -3,6 +3,7 @@ public class Student {
     public String nazwisko;
     public String nick;
     public String email;
+    public static String nazwaUczelni= "AGH";
 
     public void PrzedstawSie(){
         System.out.println("Nazywam sie " + imie+" "+nazwisko);
@@ -12,5 +13,8 @@ public class Student {
    }
    public void PodajEmail(){
        System.out.println("Podaj email: "+email );
+   }
+   public static void infoUczelnia(){
+       System.out.println("Moja Uczelnia to: "+nazwaUczelni);
    }
 }
