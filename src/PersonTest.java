@@ -1,19 +1,15 @@
 public class PersonTest {
     public static void main(String[] args) {
-        PersonTeach teacher=new PersonTeach("Tom",29);
-        teacher.name="Tom";
-        teacher.age=29;
-        teacher.school="University";
-        teacher.walk();
-        teacher.eat();
+        PersonTeach teacher=new PersonTeach("Tom",29,"WSIZ");
         teacher.sayHello();
         teacher.teachMath();
+        teacher.eat();
+        teacher.walk();
 
 
-        PersonFutboller futboller=new PersonFutboller("Frank",20);
-        futboller.name="Frank";
-        futboller.age=20;
-        futboller.footballClub="Chelsea";
+
+        PersonFutboller futboller=new PersonFutboller("Frank",20,"Chelsea");
+        futboller.sayHello();
         futboller.playFootball();
         futboller.walk();
         futboller.eat();

@@ -1,12 +1,15 @@
 public class PersonTeach extends Persona {
     public String school;
-    public PersonTeach(String name,int age) {
+    public PersonTeach(String name,int age,String school) {
         super (name,age);
+        this.school=school;
+    }
+    public void walk(){
+        System.out.println("I walk very fast");
     }
 
     public void teachMath(){
-        eat();walk();
-        System.out.println("I am teaching math");
+        System.out.println("I am teaching math in " + school);
     }
     public void sayHello(){
         System.out.println("Hello my name is "+ name);
