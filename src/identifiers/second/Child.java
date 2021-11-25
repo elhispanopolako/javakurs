@@ -8,4 +8,5 @@ public class Child extends Base {
         System.out.println(third);
         firstmethod();
         thirdmethod();
+    }
 }
